@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() 
+{
+int i, n;
+printf("enter the table you want:");
+scanf("%d",&n);
+for(i=0;i<=10;i++){
+printf("TABLE:",n*i);
+}
+return 0;
+}
